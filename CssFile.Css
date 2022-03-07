@@ -1,0 +1,110 @@
+.container{
+    position: relative;
+    z-index: 0;
+    padding: 2em 0px;
+    display: grid;
+    align-items: center;
+    height: 100%;
+}
+.container .offset-4{
+    margin-bottom: 20px;
+}
+.container a.brand-logo{
+    display: inline-block;
+    text-align: center;
+    font-size: 47px;
+    line-height: 1.1em;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 30px;
+}
+.container a.brand-logo span{
+    font-weight: 300;
+}
+.container .row{
+    margin-top: 0px;
+}
+.container .row .image{
+    padding: 20px;
+ }
+.container .row img{
+    height: 422px;
+    padding-left: 74px ;
+}
+.container .row label{
+    font-style: normal;
+    font-size: 16px;
+    color: #343a40;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.container input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #212529;
+    color: #777;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 12px 15px;
+    width: 150%;
+    margin-bottom: 30px;
+    border-radius: 0;
+    outline: none;
+}
+input[type=checkbox]{
+    box-sizing: border-box;
+    margin: 0px -216px;
+}
+.container form{
+    padding-right: 169px;
+    padding-top: 16px;
+}
+.container .check{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    margin: 5px -8px 30px;
+}
+.container .btn{
+    font-size: 18px;
+    color: #fff;
+    width: 150%;
+    background: #4361ee;
+    border: none;
+    height: 55px;
+    font-weight: 700;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+}
+.container .btn:hover{
+    background: #f72585;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
+.container p.remember{
+    color: #495057;
+    line-height: 0px;
+    margin-bottom: 55px;
+}
+.container p {
+    margin-top: -12px;
+    margin-bottom: 4rem;
+}
+.container .footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 88px;
+}
+.container p.already{
+    padding-top: 30px;
+    padding-left: 254px;
+}
+.container p.already a{
+    color: #495057;
+    font-weight: 700;
+}
+.container p.already a:hover{
+    color: #4361ee;
+}
